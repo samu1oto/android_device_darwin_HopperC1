@@ -28,7 +28,8 @@ Works:
 ```
 source build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true
-lunch omni_HopperC1-eng && make clean && make HopperC1 image -j4
+lunch omni_HopperC1-eng
+make recoveryimage -j4
 ```
 
 
