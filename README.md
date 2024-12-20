@@ -11,7 +11,7 @@ SPDX-License-Identifier: Apache-2.0
 | Device       | Hopper C1                               |
 | -----------: | :---------------------------------------------- |
 | SoC          | Mediatek MT6739(arm32 mode)                     |
-| CPU          | Octa-core 1.3 GHz Cortex-A53                    |
+| CPU          | Quad-core 1.3 GHz Cortex-A53                    |
 | GPU          | PowerVR GE8100                                  |
 | Memory       | 1GB                                             |
 | Shipped Android version | 8.1                                  |
