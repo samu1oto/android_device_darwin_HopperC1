@@ -2,11 +2,8 @@
 
 ## copyrights
 ```
-#
-# Copyright (C) 2024 The Android Open Source Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
+Copyright (C) 2024 The Android Open Source Project
+SPDX-License-Identifier: Apache-2.0
 ```
 
 ## Device specifications
@@ -20,7 +17,6 @@
 | Shipped Android version | 8.1                                  |
 | Storage      | 16GB eMMC                                       |
 | Battery      | Non-removable Li-Po 2500 mah                    |
-| Dimensions   | 154.9 x 74.8 x 7.6 mm                           |
 | Display      | 4 inch IPS LCD                                  |
 
 ## Features
@@ -30,10 +26,9 @@ Works:
 
 ## How to build
 ```
+source build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true
-. build/envsetup.sh
-lunch omni_HopperC1-eng 
-mka recoveryimage
+lunch omni_HopperC1-eng && make clean && make HopperC1 image -j4
 ```
 
 
